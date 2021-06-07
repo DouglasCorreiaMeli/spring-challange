@@ -49,7 +49,7 @@ public class ProductsController {
     @ApiOperation(value = "US006 - Get a list of publications made by sellers that a user follows\n" +
             "in the last two weeks / US009 - order by date")
     @GetMapping("/followed/{userId}/list")
-    public ResponseEntity<TimeLineResponse> getTimeLineByBuyer(@PathVariable Integer userId, @RequestParam(value = "name = order", required = false) String order){
+    public ResponseEntity<TimeLineResponse> getTimeLineByBuyer(@PathVariable Integer userId, @RequestParam(value = "date = order", required = false) String order){
         return ResponseEntity.ok().body(productService.getTimeLineProductsForBuyer(userId, order));
     }
 
