@@ -27,7 +27,8 @@ O objetivo deste desafio é aplicar os conteúdos dados até o momento durante o
 ## Rodando o projeto
 
 O projeto foi criado utilizando o Spring Data com o H2 com DDL auto create, logo não se faz necessário configurações de banco de dados.
-A API está documentada com o SWAGGER para facilitar o acompanhamento junto ao documento de requisitos, os endpoints estão nomeados de acordo com a numeracão do documento: //inserir imagem aqui
+A API está documentada com o SWAGGER para facilitar o acompanhamento junto ao documento de requisitos, os endpoints estão nomeados de acordo com a numeracão do documento:
+![swagger_example](https://github.com/DouglasCorreiaMeli/spring-challange/blob/updates/src/main/resources/static/swagger_example.png?raw=true)
 
 | Recurso | URL |
 | ------ | ------ |
