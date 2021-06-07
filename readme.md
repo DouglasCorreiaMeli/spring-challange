@@ -35,5 +35,3 @@ A API está documentada com o SWAGGER para facilitar o acompanhamento junto ao d
 | H2 | http://localhost:8080/h2 |
 
 
-## TODO's
-- trocar de LIST para SET os atributos da classe Byuer e Seller.
