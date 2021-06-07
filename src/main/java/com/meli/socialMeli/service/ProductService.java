@@ -48,7 +48,6 @@ public class ProductService {
 
     }
 
-    //TODO filtar a lista por data e ver o bug de dado duplicado na lista
     private List<PublicationResponse> getSellersPublications(List<Seller> sellers, String order) {
         this.publicationsList = new ArrayList <>();
 

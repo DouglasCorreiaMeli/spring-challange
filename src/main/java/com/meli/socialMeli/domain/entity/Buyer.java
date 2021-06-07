@@ -18,7 +18,7 @@ public class Buyer extends BaseEntity {
     private String userName;
 
     @Column
-    @ManyToMany(fetch = FetchType.EAGER)
+    @ManyToMany
     @JoinTable(
             name = "follows",
             joinColumns = @JoinColumn(name = "buyer_id"), inverseJoinColumns = @JoinColumn(name = "seller_id"))

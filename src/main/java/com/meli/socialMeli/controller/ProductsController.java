@@ -60,7 +60,6 @@ public class ProductsController {
         return ResponseEntity.ok().body(productMapper.createCountPromoResponse(userId, count));
     }
 
-    //TODO FORMATE DATE
     @ApiOperation(value = "US012 - list promotional products from a specific seller")
     @GetMapping("/{userId}/list")
     public ResponseEntity<ListPromoProductsResponse> getListPromoProducts(@PathVariable Integer userId){

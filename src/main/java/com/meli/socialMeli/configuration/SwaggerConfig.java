@@ -40,7 +40,6 @@ public class SwaggerConfig {
                 .version(VERSION)
                 .license("MIT License")//
                 .licenseUrl("https://opensource.org/licenses/MIT")
-                .termsOfServiceUrl("https://github.com/DouglasCorreiaBrito/JobTech.IO")
                 .build();
     }
 }
